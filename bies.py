@@ -1,0 +1,9 @@
+n=int(input())
+m=2**1
+while(m<=n):
+    m=m*2
+m=m//2
+if(n>0):
+    print(n-m)
+else:
+    print(0)
